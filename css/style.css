@@ -12,13 +12,4 @@
     justify-content: center;
     background-image: linear-gradient(to left,blue, purple, red);
     background-size: 100% 50%;
-    animation: display-animado 5s infinite alternate ;
-}
-@keyframes display-animado {
-    100%{
-        background-position-x: 100%;
-    }
-    0%{
-        background-position-x: 0%;
-    }
 }
